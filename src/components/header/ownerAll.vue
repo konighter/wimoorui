@@ -1,5 +1,5 @@
 <template>
-	<el-select v-model="defaultValue"  v-if="isInForm" filterable placeholder="产品负责人" @change="ownerChange">
+	<el-select :modelValue="defaultValue"  v-if="isInForm" filterable placeholder="产品负责人" @change="ownerChange">
 	    <el-option
 	      v-for="item in ownerList"
 	      :key="item.id"

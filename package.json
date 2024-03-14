@@ -19,7 +19,8 @@
     "vue-router": "^4.0.3",
     "vue3-print-nb": "^0.1.4",
     "vuedraggable": "^4.1.0",
-    "vuex": "^4.0.0"
+    "vuex": "^4.0.0",
+    "@vueuse/core": "^10.6.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
